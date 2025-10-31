@@ -1,0 +1,50 @@
+### Регистрация
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "username": "Sulta2n1",
+  "email": "astromid@exa2mple.com",
+  "password": "12345216"
+}
+
+### Авторизация
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email": "astromid@exa2mple.com",
+  "password": "12345216"
+}
+
+### Создать пост (нужно вставить токен)
+POST http://localhost:5000/posts
+Content-Type: application/json
+Authorization: Bearer
+{
+  "title": "Мой первый пост1234",
+  "content": "Это тестовый контент"
+}
+
+
+### Получить все посты
+GET http://localhost:5000/posts
+
+### Получить пост по ID
+GET http://localhost:5000/posts/
+
+
+
+###Обновить пост по ID,TOKEN
+PUT http://localhost:5000/posts/
+Content-Type: application/json
+Authorization: Bearer 
+{
+  "title": "Обновлённый пост123456789",
+  "content": "Новое содержимое"
+}
+
+
+###Удалить пост по ID,TOKEN
+DELETE http://localhost:5000/posts/
+Authorization: Bearer

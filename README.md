@@ -1,4 +1,7 @@
-<img width="565" height="321" alt="image" src="https://github.com/user-attachments/assets/a39c75a8-1970-4282-8270-0933563d7286" />📝 Blog API (Node.js + Express + MongoDB)
+<img width="619" height="301" alt="image" src="https://github.com/user-attachments/assets/80c1a5fa-5c53-4987-abeb-b3103c78f29f" />
+
+
+📝 Blog API (Node.js + Express + MongoDB)
 
 Этот проект — это сервер для блога, где пользователи могут регистрироваться, авторизоваться и писать посты.
 Создавать посты могут только авторизованные пользователи.
